@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/cwan209/project-ml-microservice-kubernetes/tree/master.svg?style=svg)](https://circleci.com/gh/cwan209/project-ml-microservice-kubernetes/tree/master)
 
 ## Project Overview
 
@@ -40,3 +40,16 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+## How to test
+
+after the app is up and running: `./make_prediction.sh`
+
+## Files Explained
+
+* upload_docker.sh is used to authenticate and push docker image to docker hub
+* Makefile contains several automated tasks for setup and testing
+* make_prediction.sh is used to send an POST request to test the app
+* requirements.txt contains the dependencies needed for the app
+* docker_out.txt contains the output when app is running in docker
+* kubernetes_out.txt contains the output when app is running in kubernetes
