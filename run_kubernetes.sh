@@ -8,7 +8,7 @@ dockerpath=lukechenluwang/project-ml-microservice-kubernetes:initial
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run ml --image=${dockerpath} --port=80 --replicas=2
+kubectl run ml --image=${dockerpath} --port=80
 
 # Step 3:
 # List kubernetes pods
