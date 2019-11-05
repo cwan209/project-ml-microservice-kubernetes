@@ -1,1 +1,6 @@
+NAME                                   READY   STATUS    RESTARTS   AGE
+kubernetes-bootcamp-69fbc6f4cf-hptfq   1/1     Running   0          25h
+ml-6c67454c84-ngt8l                    1/1     Running   0          80s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
 Handling connection for 8000
