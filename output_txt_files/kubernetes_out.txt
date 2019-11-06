@@ -1,6 +1,12 @@
-NAME                                   READY   STATUS    RESTARTS   AGE
-kubernetes-bootcamp-69fbc6f4cf-hptfq   1/1     Running   0          25h
-ml-6c67454c84-ngt8l                    1/1     Running   0          80s
+kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
+Error from server (AlreadyExists): deployments.apps "ml" already exists
+NAME                  READY   STATUS    RESTARTS   AGE
+ml-844fb4dc6d-6z49n   1/1     Running   0          57s
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80
 Handling connection for 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
